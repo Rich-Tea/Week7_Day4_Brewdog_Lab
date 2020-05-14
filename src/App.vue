@@ -33,6 +33,11 @@ export default {
        eventBus.$on('beer-selected', (beer) => {
          this.selectedBeer = beer
        })
+       
+       eventBus.$on('fav-selected', (beer) => {
+         this.selectedBeer = beer
+       })
+
      }
 }
 </script>
